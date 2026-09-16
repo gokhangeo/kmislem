@@ -1,4 +1,5 @@
 "use client";
+export const dynamic = "force-static";
 import { useEffect,useMemo,useState } from "react";
 import { Archive,ArrowRight,BookOpen,Building2,CheckCircle2,ChevronRight,ClipboardCheck,Command as CommandIcon,Compass,FileCheck2,Files,GitCompareArrows,Heart,HelpCircle,Home,Layers3,Map,MapPinned,Moon,Network,NotebookPen,Search,ShieldCheck,Sparkles,Sun,UserRoundCheck,Waypoints,X } from "lucide-react";
 import { processes,definitions,articleIndex,type Process,type SourceRef } from "./data";
